@@ -5,3 +5,5 @@
 # Description:
 
 g++ -I ./eigen/ demo_simple.cpp -o demo_simple
+
+g++ -Wno-c++11-extensions -I ./eigen/ demo_tensor.cpp -o demo_tensor
